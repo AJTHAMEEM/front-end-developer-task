@@ -248,13 +248,13 @@
                         <td class="span-190">
                             <span class="little-greener little-bolder very-little">Free 2 Day Shipping</span>
                         </td>
-                        <td class="text-right"> <b class="very-little text-right"> Total:  DKK 360.00</b> </td>
+                        <td class="text-right"> <b class="very-little text-right"> Total: DKK 360.00</b> </td>
                     </tr>
                 </table>
             </div>
             <br>
             <div class="flex">
-                <button class="button-green">
+                <button class="button-green" onclick="addToCart()">
                     + Add to cart
                 </button>
             </div>
@@ -295,6 +295,26 @@
             hiddenBox1.classList.remove("not-hidden"); hiddenBox1.classList.add("hidden"); box1.classList.remove("box-green"); radioButton1.checked = false;
             hiddenBox2.classList.remove("not-hidden"); hiddenBox2.classList.add("hidden"); box2.classList.remove("box-green"); radioButton2.checked = false;
         });
+    </script>
+    <script>
+        //functions required
+        function addToCart() {
+            //getting radio buttons
+            let radioButton1 = document.getElementById('radio1');
+            let radioButton2 = document.getElementById('radio2');
+            let radioButton3 = document.getElementById('radio3');
+            //checking whether any product is checked
+            if (radioButton1.checked === true || radioButton2.checked === true || radioButton3.checked === true) {
+                window.alert("Your order added to cart!");
+                setTimeout(() => {
+                    window.location.reload()
+                }, 2000)
+            } else {
+                window.alert("Please select any one of the product before adding to cart")
+            }
+
+
+        }
     </script>
 </body>
 
