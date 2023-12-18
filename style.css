@@ -1,0 +1,186 @@
+/* body {
+    font-family: Arial, sans-serif;
+} */
+
+.container {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+}
+
+.flex-reverse {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.conatiner-contents {
+    /* border: 0.5px solid gray; */
+    height: fit-content;
+    width: 300px;
+    padding: 15px;
+}
+
+.top-heading {
+    color: #007f61;
+    display: flex;
+    justify-content: space-between;
+}
+
+.heading-text-box {
+    text-align: center;
+    width: 40%;
+}
+
+.heading-text {
+    margin: 0;
+}
+
+.horizontal-line {
+    flex-grow: 1;
+    border-top: 1px solid #ccc;
+    margin: 8 0 0 0;
+}
+
+.boxes {
+    border: 2px solid #ccc;
+    border-radius: 3px;
+    height: fit-content;
+    padding: 15px;
+}
+
+.inner-box-content {
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+div.inner-box-content input[type="radio"]:checked {
+    accent-color: #007f61;
+}
+
+.align-straight {
+    margin: 0 0 3 0;
+}
+
+.little-lighter {
+    color: slategrey;
+}
+
+.little-darker {
+    color: black;
+}
+
+.little-bolder {
+    font-weight: 600;
+}
+
+.pointer-needed {
+    cursor: pointer;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.little-smaller {
+    font-size: small;
+}
+
+.perfect-small {
+    font-size: smaller;
+}
+
+.little-greener {
+    text-align: left;
+    color: #007f61;
+}
+
+.just-green {
+    color: #007f61;
+}
+
+.custom-selectbox {
+    border: 0.1px solid lightgrey;
+    height: 20px;
+    width: 65px;
+}
+
+.hidden {
+    display: none;
+}
+
+.not-hidden {
+    display: block;
+}
+
+.button-green {
+    width: 299px;
+    text-align: center;
+    background-color: #007f61;
+    border: none;
+    padding: 10px;
+    border-radius: 3px;
+    color: white;
+    cursor: pointer;
+}
+
+.little-italic {
+    font-style: italic;
+}
+
+.box-green {
+    border-color: #007f61;
+    background-color: #f4fbf9;
+}
+
+.col-1 {
+    width: 30px;
+}
+
+.col-2 {
+    width: 75px;
+}
+
+.col-3 {
+    width: 73px;
+}
+
+.col-4 {
+    padding-top: 15px;
+    width: 67px;
+}
+
+.col-5 {
+    width: 80px;
+    padding-right: 7px;
+    text-align: right;
+}
+
+.cutie {
+    color: darkgray;
+    font-size: x-small;
+    text-decoration: line-through;
+    padding-top: 5px;
+}
+
+.very-little {
+    font-size: x-small;
+}
+
+.span-90 {
+    width: 90px;
+}
+
+.span-190 {
+    width: 190px;
+}
+
+.cutie-2{
+    font-size: x-small;
+    font-weight: 600;
+}
